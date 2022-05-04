@@ -1,0 +1,17 @@
+[2022-04-28T01:05:34.833Z] Validating found git in: git
+[2022-04-28T01:05:34.918Z] Using git 2.36.0 from git
+[2022-04-28T01:05:34.970Z] > git rev-parse --git-dir [6ms]
+[2022-04-28T01:05:34.978Z] Open repository: /home/joakim/DAPP/VoteSysDapp
+[2022-04-28T01:05:39.315Z] > git symbolic-ref --short HEAD [4ms]
+[2022-04-28T01:05:39.339Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/crowdFundingFunc refs/remotes/crowdFundingFunc [14ms]
+[2022-04-28T01:05:39.380Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [33ms]
+[2022-04-28T01:05:39.407Z] > git remote --verbose [51ms]
+[2022-04-28T01:05:39.422Z] > git config --get commit.template [3ms]
+[2022-04-28T01:05:45.694Z] > git ls-files --stage -- /home/joakim/DAPP/VoteSysDapp/contracts/Migrations.sol [41ms]
+[2022-04-28T01:05:45.864Z] > git cat-file -s 9aac9750f3b268f834a849ace9a94b293d8d4142 [160ms]
+[2022-04-28T01:06:33.466Z] > git ls-files --stage -- /home/joakim/DAPP/VoteSysDapp/contracts/CrowdFunding.sol [5ms]
+[2022-04-28T01:06:33.529Z] > git cat-file -s f657b2aaf3a51379a7876c09e1c484b6c191bb83 [57ms]
+[2022-04-28T01:06:34.721Z] > git ls-files --stage -- /home/joakim/DAPP/VoteSysDapp/contracts/Migrations.sol [4ms]
+[2022-04-28T01:06:34.729Z] > git cat-file -s 9aac9750f3b268f834a849ace9a94b293d8d4142 [2ms]
+[2022-04-28T01:07:49.320Z] > git ls-files --stage -- /home/joakim/DAPP/VoteSysDapp/contracts/CrowdFunding.sol [1120ms]
+[2022-04-28T01:07:49.926Z] > git cat-file -s f657b2aaf3a51379a7876c09e1c484b6c191bb83 [243ms]

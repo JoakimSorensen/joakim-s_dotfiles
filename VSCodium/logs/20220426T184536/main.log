@@ -1,0 +1,17 @@
+[2022-04-26 18:45:36.804] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-26 18:45:36.814] [main] [info] update#setState idle
+[2022-04-26 18:45:36.868] [main] [info] ExtensionHostStarterWorker created
+[2022-04-26 18:45:38.561] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-26 18:45:38.892] [main] [info] Starting extension host with pid 30866 (fork() took 51 ms).
+[2022-04-26 18:45:38.892] [main] [info] ExtensionHostStarterWorker.start() took 53 ms.
+[2022-04-26 18:46:06.821] [main] [info] update#setState checking for updates
+[2022-04-26 18:46:07.069] [main] [info] update#setState idle
+[2022-04-26 18:59:00.142] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-26 18:59:00.179] [main] [info] Extension host with pid 30866 exited with code: 0, signal: null.
+[2022-04-26 18:59:01.828] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-26 18:59:02.049] [main] [info] Starting extension host with pid 31258 (fork() took 19 ms).
+[2022-04-26 18:59:02.050] [main] [info] ExtensionHostStarterWorker.start() took 22 ms.
+[2022-04-26 19:46:06.921] [main] [info] update#setState checking for updates
+[2022-04-26 19:46:08.220] [main] [info] update#setState idle
+[2022-04-26 20:54:56.087] [main] [info] Waiting for extension host with pid 31258 to exit.
+[2022-04-26 20:54:56.508] [main] [info] Extension host with pid 31258 exited with code: 0, signal: null.

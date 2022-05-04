@@ -1,0 +1,20 @@
+[2022-04-28 09:56:11.546] [exthost] [info] Extension host with pid 52697 started
+[2022-04-28 09:56:11.546] [exthost] [info] Skipping acquiring lock for /home/joakim/.config/VSCodium/User/workspaceStorage/4f6c8edd3e7dfe12b634e6060240a394.
+[2022-04-28 09:56:12.009] [exthost] [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-04-28 09:56:13.000] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-28 09:56:13.329] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-28 09:56:13.415] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-28 09:56:13.478] [exthost] [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: true, activationEvent: '*'
+[2022-04-28 09:56:13.707] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-28 09:56:13.802] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-28 09:56:13.904] [exthost] [info] Eager extensions activated
+[2022-04-28 09:56:13.948] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-28 09:56:14.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-28 09:56:14.031] [exthost] [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-28 10:00:50.758] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: false, activationEvent: '*'
+[2022-04-28 10:00:51.213] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-28 10:00:51.397] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-28 10:00:51.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-28 10:01:22.536] [exthost] [info] ExtensionService#_doActivateExtension dsznajder.es7-react-js-snippets, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-28 10:04:17.022] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-28 10:04:18.048] [exthost] [info] Extension host with pid 52697 exiting with code 0

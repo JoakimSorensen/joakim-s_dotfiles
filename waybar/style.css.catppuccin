@@ -1,0 +1,272 @@
+
+@keyframes blink-warning {
+    70% {
+        color: @light;
+    }
+
+    to {
+        color: @light;
+        background-color: @warning;
+    }
+}
+
+@keyframes blink-critical {
+    70% {
+      color: @light;
+    }
+
+    to {
+        color: @light;
+        background-color: @critical;
+    }
+}
+
+
+/* -----------------------------------------------------------------------------
+ * Styles
+ * -------------------------------------------------------------------------- */
+
+/* COLORS */
+/* Catppuccin Theme*/
+
+/* Reset all styles */
+* {
+    border: none;
+    border-radius: 3px;
+    min-height: 0;
+    margin: 0.2em 0.3em 0.2em 0.3em;
+}
+
+/* The whole bar */
+#waybar {
+    background: rgb(22, 19, 32);
+    /*color: ;*/
+    font-family: "Roboto Mono Medium", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+/* Each module */
+#battery,
+#clock,
+#cpu,
+#custom-layout,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#custom-alsa,
+#custom-pacman,
+#custom-weather,
+#custom-gpu,
+#tray,
+#backlight,
+#language,
+#custom-cpugovernor {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+/* Each module that should blink */
+#mode,
+#memory,
+#temperature,
+#battery {
+    background-color: rgb(110, 108, 126);
+    color: rgb(245, 224, 220);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0.8;
+}
+
+/* Each critical module */
+#memory.critical,
+#cpu.critical,
+#temperature.critical,
+#battery.critical {
+    color: #d3869b;
+}
+
+/* Each critical that should blink */
+#mode,
+#memory.critical,
+#temperature.critical,
+#battery.critical.discharging {
+    animation-name: blink-critical;
+    animation-duration: 2s;
+}
+
+/* Each warning */
+#network.disconnected,
+#memory.warning,
+#cpu.warning,
+#temperature.warning,
+#battery.warning {
+    background: @warning;
+    color: rgb(28, 28, 28);
+}
+
+/* Each warning that should blink */
+#battery.warning.discharging {
+    animation-name: blink-warning;
+    animation-duration: 3s;
+}
+
+/* And now modules themselves in their respective order */
+
+#mode { /* Shown current Sway mode (resize etc.) */
+    color: @light;
+    background: @mode;
+}
+
+/* Workspaces stuff */
+
+#workspaces {
+    color: rgb(22, 19, 32);
+    margin-right: 10px;
+}
+
+#workspaces button {
+    padding: 0;
+    color: rgb(245, 224, 220);
+    opacity: 0.5;
+    background: none;
+    font-size: 1em;
+}
+
+#workspaces button.focused {
+    background: rgb(245, 224, 220);
+    color: rgb(22, 19, 32);
+    opacity: 1;
+    padding: 0 0.4em;
+}
+
+#workspaces button.urgent {
+    border-color: #c9545d;
+    color: #c9545d;
+    opacity: 1;
+}
+
+#window {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-weight: normal;
+}
+#bluetooth {
+    background: rgb(28, 28, 28);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-gpu {
+    background: rgb(28, 28, 28);
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-weather {
+    background: @mode;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-pacman {
+    background: @nord_light;
+    color: @nord_dark_font;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-scratchpad-indicator {
+    background: @nord_light;
+    color: rgb(28, 28, 28);
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#idle_inhibitor {
+    background: @mode;
+    /*font-size: 1.6em;*/
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-alsa {
+    background: rgb(152, 139, 162);
+}
+
+#network {
+    background: rgb(48, 45, 65);
+    color: rgb(245, 224, 220);
+}
+
+#memory {
+    background: rgb(195, 186, 198);
+    color: rgb(22, 19, 32);
+    opacity: 0.8;
+}
+
+#cpu {
+    background: rgb(152, 151, 26);
+    color: rgb(28, 28, 28);
+}
+#cpu.critical {
+    color: rgb(28, 28, 28);
+}
+#language {
+    background: rgb(22, 19, 32);
+    padding: 0 0.4em;
+}
+#custom-cpugovernor {
+    background-color: @nord_light;
+    color: rgb(28, 28, 28);
+}
+#custom-cpugovernor.perf {
+    
+}
+#temperature {
+    background-color: rgb(217, 224, 238);
+    color: rgb(22, 19, 32);
+    opacity: 0.6;
+}
+#temperature.critical {
+    background:  @critical;
+}
+#custom-layout {
+    background: @layout;
+}
+
+#battery {
+    background: @battery;
+}
+
+#backlight {
+    background: rgb(45, 85, 88);
+}
+
+#clock.time {
+    background: @time;
+}
+#clock.date {
+    background: rgb(22, 19, 32);
+    color: rgb(245, 224, 220);
+}
+
+#clock.time {
+    background: rgb(22, 19, 32);
+    color: rgb(245, 224, 220);
+}
+
+#pulseaudio { /* Unsused but kept for those who needs it */
+    background: rgb(152, 139, 162);
+    color: rgb(245, 224, 220);
+    opacity: 0.8;
+}
+
+#pulseaudio.muted {
+    /* No styles */
+}
+#pulseaudio.source-muted {
+    /* No styles */
+}
+#tray {
+    background: rgb(28, 28, 28);
+}
+

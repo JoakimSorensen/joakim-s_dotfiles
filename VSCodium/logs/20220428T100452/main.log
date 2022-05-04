@@ -1,0 +1,16 @@
+[2022-04-28 10:04:54.064] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-28 10:04:54.072] [main] [info] update#setState idle
+[2022-04-28 10:04:55.081] [main] [info] ExtensionHostStarterWorker created
+[2022-04-28 10:04:58.415] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-28 10:04:58.876] [main] [info] Starting extension host with pid 53581 (fork() took 33 ms).
+[2022-04-28 10:04:58.877] [main] [info] ExtensionHostStarterWorker.start() took 37 ms.
+[2022-04-28 10:05:24.078] [main] [info] update#setState checking for updates
+[2022-04-28 10:05:24.722] [main] [info] update#setState idle
+[2022-04-28 10:05:25.227] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-28 10:05:25.745] [main] [info] Extension host with pid 53581 exited with code: 0, signal: null.
+[2022-04-28 10:05:27.295] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-28 10:05:27.723] [main] [info] Starting extension host with pid 53838 (fork() took 25 ms).
+[2022-04-28 10:05:27.724] [main] [info] ExtensionHostStarterWorker.start() took 37 ms.
+[2022-04-28 10:07:23.589] [main] [info] Enabling inspect port on extension host with pid 53838.
+[2022-04-28 10:07:51.801] [main] [info] Waiting for extension host with pid 53838 to exit.
+[2022-04-28 10:07:52.974] [main] [info] Extension host with pid 53838 exited with code: 0, signal: null.

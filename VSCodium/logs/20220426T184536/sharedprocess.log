@@ -1,0 +1,48 @@
+[2022-04-26 18:45:40.657] [sharedprocess] [info] Starting worker process with pid 30911 (type: fileWatcher, window: 1).
+[2022-04-26 18:53:55.598] [sharedprocess] [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:53:56.076] [sharedprocess] [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:53:56.402] [sharedprocess] [info] Downloaded extension: llvm-vs-code-extensions.vscode-clangd /home/joakim/.config/VSCodium/CachedExtensionVSIXs/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-04-26 18:53:56.517] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.c72e22e8-1221-410b-9242-6f49d94066ab: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:53:56.608] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-04-26 18:53:56.610] [sharedprocess] [info] Extracting completed. llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:53:56.613] [sharedprocess] [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:54:16.545] [sharedprocess] [info] Uninstalling extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:54:16.689] [sharedprocess] [info] Detected extension removed from another source llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:54:18.082] [sharedprocess] [info] Successfully uninstalled extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:59:00.151] [sharedprocess] [info] Worker process with pid 30911 terminated normally (type: fileWatcher, window: 1).
+[2022-04-26 18:59:02.634] [sharedprocess] [info] Starting worker process with pid 31270 (type: fileWatcher, window: 1).
+[2022-04-26 18:59:31.444] [sharedprocess] [info] Getting Manifest... franneck94.c-cpp-runner
+[2022-04-26 18:59:31.948] [sharedprocess] [info] Installing extension: franneck94.c-cpp-runner
+[2022-04-26 18:59:36.525] [sharedprocess] [info] Downloaded extension: franneck94.c-cpp-runner /home/joakim/.config/VSCodium/CachedExtensionVSIXs/franneck94.c-cpp-runner-3.0.0
+[2022-04-26 18:59:36.750] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.08090f05-f50b-48f9-a720-2e78d5931731: franneck94.c-cpp-runner
+[2022-04-26 18:59:36.796] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/franneck94.c-cpp-runner-3.0.0
+[2022-04-26 18:59:36.808] [sharedprocess] [info] Extracting completed. franneck94.c-cpp-runner
+[2022-04-26 18:59:36.813] [sharedprocess] [info] Extension installed successfully: franneck94.c-cpp-runner
+[2022-04-26 19:03:22.363] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-04-26 19:03:22.881] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-04-26 19:03:23.886] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-04-26 19:03:27.479] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-renderers
+[2022-04-26 19:03:29.512] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter-keymap
+[2022-04-26 19:03:31.681] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-04-26 19:03:31.682] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-renderers
+[2022-04-26 19:03:31.690] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter-keymap
+[2022-04-26 19:03:36.763] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-keymap /home/joakim/.config/VSCodium/CachedExtensionVSIXs/ms-toolsai.jupyter-keymap-1.0.0
+[2022-04-26 19:03:36.778] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.505ffa55-5f4a-4fae-8a71-e36d587c091c: ms-toolsai.jupyter-keymap
+[2022-04-26 19:03:36.894] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.0.0
+[2022-04-26 19:03:36.895] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-keymap
+[2022-04-26 19:03:41.485] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter-renderers /home/joakim/.config/VSCodium/CachedExtensionVSIXs/ms-toolsai.jupyter-renderers-1.0.6
+[2022-04-26 19:03:41.932] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.3bf99283-e5e9-4601-823b-bbb4c62bf560: ms-toolsai.jupyter-renderers
+[2022-04-26 19:03:42.011] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.6
+[2022-04-26 19:03:42.013] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter-renderers
+[2022-04-26 19:03:50.270] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/joakim/.config/VSCodium/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-26 19:03:51.916] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.a0e37a9f-c1a8-4c7f-a25b-9440a5983bfd: ms-toolsai.jupyter
+[2022-04-26 19:03:51.976] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/ms-toolsai.jupyter-2022.3.1000901801
+[2022-04-26 19:03:51.981] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-04-26 19:03:57.900] [sharedprocess] [info] Downloaded extension: ms-python.python /home/joakim/.config/VSCodium/CachedExtensionVSIXs/ms-python.python-2022.4.1
+[2022-04-26 19:04:00.779] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.1534a016-627e-4c32-8d02-f4e6172ce53a: ms-python.python
+[2022-04-26 19:04:01.001] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/ms-python.python-2022.4.1
+[2022-04-26 19:04:01.003] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-04-26 19:04:01.027] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+[2022-04-26 19:04:01.028] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+[2022-04-26 19:04:01.028] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2022-04-26 19:04:01.029] [sharedprocess] [info] Extension installed successfully: ms-python.python

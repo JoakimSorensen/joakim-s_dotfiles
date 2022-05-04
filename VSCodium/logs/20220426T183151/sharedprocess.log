@@ -1,0 +1,14 @@
+[2022-04-26 18:31:56.410] [sharedprocess] [info] Starting worker process with pid 30070 (type: fileWatcher, window: 1).
+[2022-04-26 18:35:52.479] [sharedprocess] [info] Uninstalling extension: twxs.cmake
+[2022-04-26 18:35:52.681] [sharedprocess] [info] Detected extension removed from another source twxs.cmake
+[2022-04-26 18:35:53.703] [sharedprocess] [info] Successfully uninstalled extension: twxs.cmake
+[2022-04-26 18:36:03.065] [sharedprocess] [info] Uninstalling extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:36:03.306] [sharedprocess] [info] Detected extension removed from another source llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:36:04.240] [sharedprocess] [info] Successfully uninstalled extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 18:37:28.441] [sharedprocess] [info] Getting Manifest... franneck94.vscode-c-cpp-config
+[2022-04-26 18:37:29.447] [sharedprocess] [info] Installing extension: franneck94.vscode-c-cpp-config
+[2022-04-26 18:37:32.102] [sharedprocess] [info] Downloaded extension: franneck94.vscode-c-cpp-config /home/joakim/.config/VSCodium/CachedExtensionVSIXs/franneck94.vscode-c-cpp-config-2.2.0
+[2022-04-26 18:37:32.222] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.6b7c9504-6715-482d-afda-70af00217bbd: franneck94.vscode-c-cpp-config
+[2022-04-26 18:37:32.256] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-2.2.0
+[2022-04-26 18:37:32.258] [sharedprocess] [info] Extracting completed. franneck94.vscode-c-cpp-config
+[2022-04-26 18:37:32.259] [sharedprocess] [info] Extension installed successfully: franneck94.vscode-c-cpp-config

@@ -1,0 +1,7 @@
+[2022-05-02 20:39:36.750] [renderer1] [critical] Extension 'TabNine.tabnine-vscode CANNOT USE these API proposals 'inlineCompletions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-05-02 20:39:36.757] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-02 20:39:38.471] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-05-02 20:39:41.390] [renderer1] [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+[2022-05-02 20:39:45.016] [renderer1] [error] [Extension Host] validating /home/joakim/.config/VSCodium/User/globalStorage/tabnine.tabnine-vscode/binaries/4.4.6/x86_64-unknown-linux-musl/TabNine timeout
+[2022-05-02 20:39:49.728] [renderer1] [error] [Extension Host] (node:34164) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)

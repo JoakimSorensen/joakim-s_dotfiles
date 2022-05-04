@@ -1,0 +1,40 @@
+[2022-04-30 00:58:24.821] [renderer1] [critical] Extension 'TabNine.tabnine-vscode CANNOT USE these API proposals 'inlineCompletions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-04-30 00:58:24.828] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-30 00:58:28.165] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-30 00:58:29.259] [renderer1] [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+[2022-04-30 00:58:33.233] [renderer1] [error] [Extension Host] validating /home/joakim/.config/VSCodium/User/globalStorage/tabnine.tabnine-vscode/binaries/4.4.6/x86_64-unknown-linux-musl/TabNine timeout
+[2022-04-30 00:58:35.246] [renderer1] [error] [Extension Host] (node:22132) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-04-30 00:58:39.603] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"State":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-30 00:59:51.957] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage
+[2022-04-30 00:59:58.159] [renderer1] [critical] Extension 'TabNine.tabnine-vscode CANNOT USE these API proposals 'inlineCompletions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-04-30 00:59:58.167] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-30 01:00:01.410] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-30 01:00:01.957] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-30 01:00:03.070] [renderer1] [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+[2022-04-30 01:00:06.371] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-30 01:00:07.129] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-30 01:00:10.375] [renderer1] [error] [Extension Host] validating /home/joakim/.config/VSCodium/User/globalStorage/tabnine.tabnine-vscode/binaries/4.4.6/x86_64-unknown-linux-musl/TabNine timeout
+[2022-04-30 01:00:24.293] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"StartupActions":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-30 01:00:25.523] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"State":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-30 01:00:25.900] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"Notifications":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-30 01:00:26.897] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"StatusBar":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-30 01:00:27.895] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"State":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)

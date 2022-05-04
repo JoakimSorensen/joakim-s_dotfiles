@@ -1,0 +1,23 @@
+[2022-04-26T07:21:28.019Z] Validating found git in: git
+[2022-04-26T07:21:28.042Z] Using git 2.36.0 from git
+[2022-04-26T07:21:28.092Z] > git rev-parse --git-dir [13ms]
+[2022-04-26T07:21:28.107Z] Open repository: /home/joakim/CodingTest
+[2022-04-26T07:21:28.126Z] > git symbolic-ref --short HEAD [2ms]
+[2022-04-26T07:21:28.137Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [5ms]
+[2022-04-26T07:21:28.155Z] > git remote --verbose [2ms]
+[2022-04-26T07:21:28.156Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-04-26T07:21:28.166Z] > git config --get commit.template [1ms]
+[2022-04-26T07:21:35.056Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [5ms]
+[2022-04-26T07:21:35.069Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [3ms]
+[2022-04-26T07:21:50.526Z] > git ls-files --stage -- /home/joakim/CodingTest/.vscode/launch.json [1ms]
+[2022-04-26T07:21:50.827Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-26T07:21:50.843Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [8ms]
+[2022-04-26T07:21:50.863Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-04-26T07:21:50.888Z] > git remote --verbose [26ms]
+[2022-04-26T07:21:50.900Z] > git config --get commit.template [2ms]
+[2022-04-26T07:22:02.010Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [2ms]
+[2022-04-26T07:22:02.016Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [1ms]
+[2022-04-26T07:22:07.186Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/joakim/CodingTest/coloring_book.cpp [2ms]
+[2022-04-26T07:22:17.343Z] > git ls-files --stage -- /home/joakim/CodingTest/key_pad.py [4ms]
+[2022-04-26T07:22:17.356Z] > git cat-file -s adb5f59b12e06f8f8b8977879444b132ba3f862b [5ms]
+[2022-04-26T07:22:30.733Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/joakim/CodingTest/key_pad.py [3ms]

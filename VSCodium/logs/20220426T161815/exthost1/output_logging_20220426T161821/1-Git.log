@@ -1,0 +1,16 @@
+[2022-04-26T07:18:22.571Z] Validating found git in: git
+[2022-04-26T07:18:22.600Z] Using git 2.36.0 from git
+[2022-04-26T07:18:22.687Z] > git rev-parse --git-dir [2ms]
+[2022-04-26T07:18:22.695Z] Open repository: /home/joakim/CodingTest
+[2022-04-26T07:18:22.878Z] > git symbolic-ref --short HEAD [4ms]
+[2022-04-26T07:18:22.907Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [21ms]
+[2022-04-26T07:18:22.924Z] > git remote --verbose [3ms]
+[2022-04-26T07:18:22.925Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-04-26T07:18:22.939Z] > git config --get commit.template [2ms]
+[2022-04-26T07:18:23.194Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [3ms]
+[2022-04-26T07:18:23.202Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [1ms]
+[2022-04-26T07:19:58.295Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [3ms]
+[2022-04-26T07:19:58.307Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [5ms]
+[2022-04-26T07:21:00.347Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [2ms]
+[2022-04-26T07:21:00.353Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [1ms]
+[2022-04-26T07:21:13.411Z] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/joakim/CodingTest/coloring_book.cpp [62ms]

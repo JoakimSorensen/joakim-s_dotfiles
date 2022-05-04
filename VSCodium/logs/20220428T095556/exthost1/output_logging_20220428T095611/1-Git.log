@@ -1,0 +1,11 @@
+[2022-04-28T00:56:13.847Z] Validating found git in: git
+[2022-04-28T00:56:13.892Z] Using git 2.36.0 from git
+[2022-04-28T00:56:14.103Z] > git rev-parse --git-dir [12ms]
+[2022-04-28T00:56:14.113Z] Open repository: /home/joakim/CodingTest
+[2022-04-28T00:56:14.314Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-28T00:56:14.346Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [27ms]
+[2022-04-28T00:56:14.356Z] > git remote --verbose [1ms]
+[2022-04-28T00:56:14.357Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-04-28T00:56:14.368Z] > git config --get commit.template [1ms]
+[2022-04-28T00:56:14.689Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [2ms]
+[2022-04-28T00:56:14.695Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [1ms]

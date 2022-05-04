@@ -1,0 +1,18 @@
+[2022-04-28 10:04:59.447] [renderer1] [critical] Extension 'TabNine.tabnine-vscode CANNOT USE these API proposals 'inlineCompletions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-04-28 10:04:59.454] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:05:01.403] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:05:02.176] [renderer1] [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+[2022-04-28 10:05:04.740] [renderer1] [error] [Extension Host] validating /home/joakim/.config/VSCodium/User/globalStorage/tabnine.tabnine-vscode/binaries/4.4.6/x86_64-unknown-linux-musl/TabNine timeout
+[2022-04-28 10:05:27.840] [renderer1] [critical] Extension 'TabNine.tabnine-vscode CANNOT USE these API proposals 'inlineCompletions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-04-28 10:05:27.901] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:05:30.094] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:05:30.786] [renderer1] [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+[2022-04-28 10:05:33.347] [renderer1] [error] [Extension Host] validating /home/joakim/.config/VSCodium/User/globalStorage/tabnine.tabnine-vscode/binaries/4.4.6/x86_64-unknown-linux-musl/TabNine timeout
+[2022-04-28 10:05:34.352] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:07:04.035] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:07:28.512] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-28 10:07:29.565] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-28 10:07:29.906] [renderer1] [warning] UNRESPONSIVE extension host: 'JuanBlanco.solidity' took 97% of 1612.647ms, saved PROFILE here: 'file:///tmp/exthost-a5a432.cpuprofile' [{"id":"gc","total":45748,"percentage":3},{"id":"JuanBlanco.solidity","total":1561938,"percentage":97},{"id":"self","total":1967,"percentage":0},{"id":"TabNine.tabnine-vscode","total":1458,"percentage":0}]
+[2022-04-28 10:07:46.588] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-04-28 10:07:47.715] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-04-28 10:07:50.762] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

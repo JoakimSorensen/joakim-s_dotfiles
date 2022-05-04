@@ -1,0 +1,24 @@
+[2022-04-26 16:18:21.943] [sharedprocess] [info] Starting worker process with pid 29550 (type: fileWatcher, window: 1).
+[2022-04-26 16:18:30.992] [sharedprocess] [info] Getting Manifest... llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 16:18:31.240] [sharedprocess] [info] Installing extension: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 16:18:34.880] [sharedprocess] [info] Downloaded extension: llvm-vs-code-extensions.vscode-clangd /home/joakim/.config/VSCodium/CachedExtensionVSIXs/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-04-26 16:18:34.957] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.f5bf2efb-8d26-47a3-8c8e-114711d8f69e: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 16:18:34.996] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-04-26 16:18:35.000] [sharedprocess] [info] Extracting completed. llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 16:18:35.003] [sharedprocess] [info] Extension installed successfully: llvm-vs-code-extensions.vscode-clangd
+[2022-04-26 16:18:46.340] [sharedprocess] [info] Getting Manifest... twxs.cmake
+[2022-04-26 16:18:46.850] [sharedprocess] [info] Installing extension: twxs.cmake
+[2022-04-26 16:18:53.719] [sharedprocess] [info] Downloaded extension: twxs.cmake /home/joakim/.config/VSCodium/CachedExtensionVSIXs/twxs.cmake-0.0.17
+[2022-04-26 16:18:53.989] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.96348afd-229f-4387-8232-5bbc0645ad79: twxs.cmake
+[2022-04-26 16:18:54.024] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/twxs.cmake-0.0.17
+[2022-04-26 16:18:54.025] [sharedprocess] [info] Extracting completed. twxs.cmake
+[2022-04-26 16:18:54.026] [sharedprocess] [info] Extension installed successfully: twxs.cmake
+[2022-04-26 16:18:55.560] [sharedprocess] [info] Getting Manifest... ms-vscode.cmake-tools
+[2022-04-26 16:18:55.807] [sharedprocess] [info] Installing extension: ms-vscode.cmake-tools
+[2022-04-26 16:19:09.507] [sharedprocess] [info] Downloaded extension: ms-vscode.cmake-tools /home/joakim/.config/VSCodium/CachedExtensionVSIXs/ms-vscode.cmake-tools-1.10.5
+[2022-04-26 16:19:09.710] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.afd42dc0-7452-4d01-9cea-c1beb86ff9f4: ms-vscode.cmake-tools
+[2022-04-26 16:19:09.762] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/ms-vscode.cmake-tools-1.10.5
+[2022-04-26 16:19:09.765] [sharedprocess] [info] Extracting completed. ms-vscode.cmake-tools
+[2022-04-26 16:19:09.769] [sharedprocess] [info] Extension installed successfully: ms-vscode.cmake-tools
+[2022-04-26 16:21:19.472] [sharedprocess] [info] Worker process with pid 29550 terminated normally (type: fileWatcher, window: 1).
+[2022-04-26 16:21:21.458] [sharedprocess] [info] Starting worker process with pid 29690 (type: fileWatcher, window: 1).

@@ -1,0 +1,23 @@
+[2022-04-26 18:43:37.686] [exthost] [info] Extension host with pid 30572 started
+[2022-04-26 18:43:37.686] [exthost] [info] Skipping acquiring lock for /home/joakim/.config/VSCodium/User/workspaceStorage/4f6c8edd3e7dfe12b634e6060240a394.
+[2022-04-26 18:43:38.199] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-26 18:43:38.211] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-04-26 18:43:38.215] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-26 18:43:38.225] [exthost] [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: true, activationEvent: '*'
+[2022-04-26 18:43:38.584] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-26 18:43:38.621] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-26 18:43:39.158] [exthost] [info] Eager extensions activated
+[2022-04-26 18:43:39.306] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-26 18:43:39.321] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-26 18:43:39.323] [exthost] [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-26 18:43:57.477] [exthost] [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+[2022-04-26 18:43:57.486] [exthost] [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+[2022-04-26 18:43:57.489] [exthost] [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+[2022-04-26 18:43:57.490] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTaskType:npm'
+[2022-04-26 18:43:57.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onTaskType:typescript'
+[2022-04-26 18:44:07.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2022-04-26 18:44:10.708] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+[2022-04-26 18:44:11.404] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 18:44:11.420] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-04-26 18:45:17.676] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-04-26 18:45:17.707] [exthost] [info] Extension host with pid 30572 exiting with code 0

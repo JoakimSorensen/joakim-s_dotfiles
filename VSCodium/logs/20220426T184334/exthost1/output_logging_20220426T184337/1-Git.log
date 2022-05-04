@@ -1,0 +1,22 @@
+[2022-04-26T09:43:39.048Z] Validating found git in: git
+[2022-04-26T09:43:39.122Z] Using git 2.36.0 from git
+[2022-04-26T09:43:39.171Z] > git rev-parse --git-dir [1ms]
+[2022-04-26T09:43:39.181Z] Open repository: /home/joakim/CodingTest
+[2022-04-26T09:43:39.199Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-26T09:43:39.207Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [2ms]
+[2022-04-26T09:43:39.222Z] > git remote --verbose [3ms]
+[2022-04-26T09:43:39.223Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-04-26T09:43:39.243Z] > git config --get commit.template [3ms]
+[2022-04-26T09:43:44.708Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [5ms]
+[2022-04-26T09:43:44.722Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [3ms]
+[2022-04-26T09:44:11.898Z] > git ls-files --stage -- /home/joakim/CodingTest/.vscode/launch.json [3ms]
+[2022-04-26T09:44:12.272Z] > git symbolic-ref --short HEAD [1ms]
+[2022-04-26T09:44:12.279Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main [2ms]
+[2022-04-26T09:44:12.291Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-04-26T09:44:12.293Z] > git remote --verbose [4ms]
+[2022-04-26T09:44:12.304Z] > git config --get commit.template [2ms]
+[2022-04-26T09:44:35.625Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [2ms]
+[2022-04-26T09:44:35.631Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [2ms]
+[2022-04-26T09:44:36.654Z] > git ls-files --stage -- /home/joakim/CodingTest/.vscode/launch.json [1ms]
+[2022-04-26T09:44:39.903Z] > git ls-files --stage -- /home/joakim/CodingTest/coloring_book.cpp [1ms]
+[2022-04-26T09:44:39.909Z] > git cat-file -s f86b525b806fdea25be5251d81e4fd0a9d8c5390 [1ms]

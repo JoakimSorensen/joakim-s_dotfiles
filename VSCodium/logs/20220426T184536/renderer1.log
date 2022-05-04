@@ -1,0 +1,41 @@
+[2022-04-26 18:45:39.518] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 18:45:39.730] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 18:53:56.822] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 18:53:57.265] [renderer1] [error] [Extension Host] (node:30866) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-04-26 18:53:57.871] [renderer1] [error] [Extension Host] Can't glibc version from ldd --version output: ldd (GNU libc) 2.35
+[2022-04-26 18:54:02.116] [renderer1] [error] [Extension Host] Can't glibc version from ldd --version output: ldd (GNU libc) 2.35
+[2022-04-26 18:54:02.121] [renderer1] [error] [Extension Host] Failed to install clangd:  TypeError: Expected signal to be an instanceof AbortSignal
+	at new Bi (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:332346)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:334743
+	at new Promise (<anonymous>)
+	at Function.fn [as default] (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:334708)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3194
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37654
+	at new Promise (<anonymous>)
+	at Nr (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37451)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3138
+	at ub.<anonymous> (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7547)
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:1:1389
+	at new Promise (<anonymous>)
+	at Re (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:1:1209)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7464
+	at y._withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:43945)
+	at y.withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:43699)
+	at Object.withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:40824)
+	at ub.progress (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7442)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3092
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37654
+	at new Promise (<anonymous>)
+	at Nr (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37451)
+	at n (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3010)
+	at Object.<anonymous> (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:2317)
+	at Generator.next (<anonymous>)
+	at d (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37507)
+[2022-04-26 18:59:03.329] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 18:59:03.655] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 18:59:37.035] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 19:04:01.351] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.

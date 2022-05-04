@@ -1,0 +1,10 @@
+[2022-04-26 18:31:52.013] [main] [info] window#load: attempt to load window (id: 1)
+[2022-04-26 18:31:52.022] [main] [info] update#setState idle
+[2022-04-26 18:31:52.072] [main] [info] ExtensionHostStarterWorker created
+[2022-04-26 18:31:53.791] [main] [info] window#load: window reported ready (id: 1)
+[2022-04-26 18:31:54.151] [main] [info] Starting extension host with pid 30009 (fork() took 41 ms).
+[2022-04-26 18:31:54.152] [main] [info] ExtensionHostStarterWorker.start() took 46 ms.
+[2022-04-26 18:32:22.024] [main] [info] update#setState checking for updates
+[2022-04-26 18:32:22.382] [main] [info] update#setState idle
+[2022-04-26 18:42:58.804] [main] [info] Waiting for extension host with pid 30009 to exit.
+[2022-04-26 18:42:58.829] [main] [info] Extension host with pid 30009 exited with code: 0, signal: null.

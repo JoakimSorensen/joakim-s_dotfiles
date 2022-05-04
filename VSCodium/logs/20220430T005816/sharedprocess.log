@@ -1,0 +1,4 @@
+[2022-04-30 00:58:27.234] [sharedprocess] [info] Starting worker process with pid 22163 (type: fileWatcher, window: 1).
+[2022-04-30 00:58:31.238] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
+[2022-04-30 00:59:52.823] [sharedprocess] [info] Worker process with pid 22163 terminated normally (type: fileWatcher, window: 1).
+[2022-04-30 00:59:57.833] [sharedprocess] [info] Starting worker process with pid 22391 (type: fileWatcher, window: 1).

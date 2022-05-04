@@ -1,0 +1,25 @@
+[2022-04-28 09:56:06.834] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 09:56:07.279] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:00:50.547] [renderer1] [critical] Extension 'TabNine.tabnine-vscode CANNOT USE these API proposals 'inlineCompletions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-04-28 10:00:50.639] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:00:51.205] [renderer1] [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+[2022-04-28 10:00:54.020] [renderer1] [error] [Extension Host] (node:52697) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-04-28 10:01:12.299] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"StartupActions":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-28 10:01:13.673] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"State":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-28 10:01:13.675] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"State":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-28 10:01:13.676] [renderer1] [error] [Extension Host] Error: Binary request timed out. {"Notifications":{}}
+	at Timeout._onTimeout (/home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42/out/extension.js:17:31695)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2022-04-28 10:01:21.780] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 10:02:52.469] [renderer1] [error] GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files

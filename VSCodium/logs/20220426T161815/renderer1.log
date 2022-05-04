@@ -1,0 +1,78 @@
+[2022-04-26 16:18:20.393] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:18:20.653] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:18:35.110] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:18:35.420] [renderer1] [error] [Extension Host] (node:29505) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-04-26 16:18:36.171] [renderer1] [error] [Extension Host] Can't glibc version from ldd --version output: ldd (GNU libc) 2.35
+[2022-04-26 16:18:54.114] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:19:09.839] [renderer1] [warning] [ms-vscode.cmake-tools]: Cannot register 'cmake.cmakePath'. This property is already registered.
+[2022-04-26 16:19:09.919] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:20:08.778] [renderer1] [error] [Extension Host] Can't glibc version from ldd --version output: ldd (GNU libc) 2.35
+[2022-04-26 16:20:08.784] [renderer1] [error] [Extension Host] Failed to install clangd:  TypeError: Expected signal to be an instanceof AbortSignal
+	at new Bi (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:332346)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:334743
+	at new Promise (<anonymous>)
+	at Function.fn [as default] (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:334708)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3194
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37654
+	at new Promise (<anonymous>)
+	at Nr (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37451)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3138
+	at ub.<anonymous> (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7547)
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:1:1389
+	at new Promise (<anonymous>)
+	at Re (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:1:1209)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7464
+	at y._withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:43945)
+	at y.withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:43699)
+	at Object.withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:40824)
+	at ub.progress (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7442)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3092
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37654
+	at new Promise (<anonymous>)
+	at Nr (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37451)
+	at n (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3010)
+	at Object.<anonymous> (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:2317)
+	at Generator.next (<anonymous>)
+	at d (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37507)
+[2022-04-26 16:21:21.802] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:21:22.552] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:21:27.643] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+[2022-04-26 16:21:27.732] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-26 16:21:34.652] [renderer1] [error] [Extension Host] (node:29687) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `codium --trace-deprecation ...` to show where the warning was created)
+[2022-04-26 16:21:35.831] [renderer1] [error] [Extension Host] Can't glibc version from ldd --version output: ldd (GNU libc) 2.35
+[2022-04-26 16:21:40.200] [renderer1] [error] [Extension Host] Can't glibc version from ldd --version output: ldd (GNU libc) 2.35
+[2022-04-26 16:21:40.204] [renderer1] [error] [Extension Host] Failed to install clangd:  TypeError: Expected signal to be an instanceof AbortSignal
+	at new Bi (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:332346)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:334743
+	at new Promise (<anonymous>)
+	at Function.fn [as default] (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:39:334708)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3194
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37654
+	at new Promise (<anonymous>)
+	at Nr (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37451)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3138
+	at ub.<anonymous> (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7547)
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:1:1389
+	at new Promise (<anonymous>)
+	at Re (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:1:1209)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7464
+	at y._withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:43945)
+	at y.withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:43699)
+	at Object.withProgress (/opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:40824)
+	at ub.progress (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:239:7442)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3092
+	at Generator.next (<anonymous>)
+	at /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37654
+	at new Promise (<anonymous>)
+	at Nr (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37451)
+	at n (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:3010)
+	at Object.<anonymous> (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:236:2317)
+	at Generator.next (<anonymous>)
+	at d (/home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16/out/bundle.js:235:37507)

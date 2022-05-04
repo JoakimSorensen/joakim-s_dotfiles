@@ -1,0 +1,16 @@
+[2022-04-28 09:56:08.330] [sharedprocess] [info] Starting worker process with pid 52743 (type: fileWatcher, window: 1).
+[2022-04-28 09:56:13.420] [sharedprocess] [info] Deleted from disk llvm-vs-code-extensions.vscode-clangd /home/joakim/.vscode-oss/extensions/llvm-vs-code-extensions.vscode-clangd-0.1.16
+[2022-04-28 10:00:46.456] [sharedprocess] [info] Getting Manifest... tabnine.tabnine-vscode
+[2022-04-28 10:00:46.927] [sharedprocess] [info] Installing extension: tabnine.tabnine-vscode
+[2022-04-28 10:00:50.373] [sharedprocess] [info] Downloaded extension: tabnine.tabnine-vscode /home/joakim/.config/VSCodium/CachedExtensionVSIXs/tabnine.tabnine-vscode-3.5.42
+[2022-04-28 10:00:50.468] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.e75fa9d4-51b3-4209-a902-ac746f34cacf: tabnine.tabnine-vscode
+[2022-04-28 10:00:50.505] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.42
+[2022-04-28 10:00:50.507] [sharedprocess] [info] Extracting completed. tabnine.tabnine-vscode
+[2022-04-28 10:00:50.517] [sharedprocess] [info] Extension installed successfully: tabnine.tabnine-vscode
+[2022-04-28 10:00:54.005] [sharedprocess] [info] Getting Manifest... dsznajder.es7-react-js-snippets
+[2022-04-28 10:00:54.386] [sharedprocess] [info] Installing extension: dsznajder.es7-react-js-snippets
+[2022-04-28 10:01:18.814] [sharedprocess] [info] Downloaded extension: dsznajder.es7-react-js-snippets /home/joakim/.config/VSCodium/CachedExtensionVSIXs/dsznajder.es7-react-js-snippets-4.4.3
+[2022-04-28 10:01:20.166] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.67f6c3cd-4693-465c-b361-f8670a6c0eec: dsznajder.es7-react-js-snippets
+[2022-04-28 10:01:20.300] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/dsznajder.es7-react-js-snippets-4.4.3
+[2022-04-28 10:01:20.302] [sharedprocess] [info] Extracting completed. dsznajder.es7-react-js-snippets
+[2022-04-28 10:01:20.335] [sharedprocess] [info] Extension installed successfully: dsznajder.es7-react-js-snippets

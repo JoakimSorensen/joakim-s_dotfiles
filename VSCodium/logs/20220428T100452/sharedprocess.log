@@ -1,0 +1,10 @@
+[2022-04-28 10:05:00.919] [sharedprocess] [info] Starting worker process with pid 53611 (type: fileWatcher, window: 1).
+[2022-04-28 10:05:25.239] [sharedprocess] [info] Worker process with pid 53611 terminated normally (type: fileWatcher, window: 1).
+[2022-04-28 10:05:27.742] [sharedprocess] [info] Starting worker process with pid 53839 (type: fileWatcher, window: 1).
+[2022-04-28 10:06:11.145] [sharedprocess] [info] Getting Manifest... juanblanco.solidity
+[2022-04-28 10:06:11.763] [sharedprocess] [info] Installing extension: juanblanco.solidity
+[2022-04-28 10:06:54.804] [sharedprocess] [info] Downloaded extension: juanblanco.solidity /home/joakim/.config/VSCodium/CachedExtensionVSIXs/juanblanco.solidity-0.0.133
+[2022-04-28 10:07:03.759] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.00978120-da54-4909-aeab-cf837242326b: juanblanco.solidity
+[2022-04-28 10:07:03.866] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/juanblanco.solidity-0.0.133
+[2022-04-28 10:07:03.868] [sharedprocess] [info] Extracting completed. juanblanco.solidity
+[2022-04-28 10:07:03.870] [sharedprocess] [info] Extension installed successfully: juanblanco.solidity

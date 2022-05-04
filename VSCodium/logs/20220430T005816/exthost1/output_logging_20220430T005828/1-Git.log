@@ -1,0 +1,9 @@
+[2022-04-29T15:58:30.057Z] Validating found git in: git
+[2022-04-29T15:58:30.935Z] Using git 2.36.0 from git
+[2022-04-29T15:58:33.263Z] > git rev-parse --git-dir [32ms]
+[2022-04-29T15:58:33.274Z] Open repository: /home/joakim/DAPP/VoteSysDapp
+[2022-04-29T15:58:38.941Z] > git symbolic-ref --short HEAD [73ms]
+[2022-04-29T15:58:39.234Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/crowdFundingFunc refs/remotes/crowdFundingFunc [214ms]
+[2022-04-29T15:58:39.278Z] > git remote --verbose [24ms]
+[2022-04-29T15:58:39.655Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [410ms]
+[2022-04-29T15:58:39.670Z] > git config --get commit.template [1ms]

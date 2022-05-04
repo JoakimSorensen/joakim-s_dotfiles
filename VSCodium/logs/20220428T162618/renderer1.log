@@ -1,0 +1,3 @@
+[2022-04-28 16:26:29.691] [renderer1] [critical] Extension 'TabNine.tabnine-vscode CANNOT USE these API proposals 'inlineCompletions'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-04-28 16:26:29.701] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-04-28 16:26:36.137] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.

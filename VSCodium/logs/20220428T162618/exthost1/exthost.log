@@ -1,0 +1,3 @@
+[2022-04-28 16:26:38.110] [exthost] [info] Extension host with pid 67072 started
+[2022-04-28 16:26:38.110] [exthost] [info] Skipping acquiring lock for /home/joakim/.config/VSCodium/User/workspaceStorage/a1e76ae21e4cc0f782d27166592ea697.
+[2022-04-28 16:26:38.117] [exthost] [info] ExtensionService#_doActivateExtension JuanBlanco.solidity, startup: false, activationEvent: 'onLanguage:solidity'

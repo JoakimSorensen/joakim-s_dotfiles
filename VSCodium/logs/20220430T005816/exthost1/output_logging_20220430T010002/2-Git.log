@@ -1,0 +1,13 @@
+[2022-04-29T16:00:06.318Z] Validating found git in: git
+[2022-04-29T16:00:08.193Z] Using git 2.36.0 from git
+[2022-04-29T16:00:08.518Z] > git rev-parse --git-dir [2ms]
+[2022-04-29T16:00:08.527Z] Open repository: /home/joakim/altime
+[2022-04-29T16:00:09.816Z] > git symbolic-ref --short HEAD [2ms]
+[2022-04-29T16:00:09.862Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [36ms]
+[2022-04-29T16:00:09.878Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-04-29T16:00:09.879Z] > git remote --verbose [4ms]
+[2022-04-29T16:00:09.894Z] > git config --get commit.template [1ms]
+[2022-04-29T16:00:12.590Z] > git ls-files --stage -- /home/joakim/altime/src/index.js [202ms]
+[2022-04-29T16:00:12.616Z] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [14ms]
+[2022-04-29T16:01:43.760Z] > git ls-files --stage -- /home/joakim/altime/src/index.js [435ms]
+[2022-04-29T16:01:43.888Z] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [31ms]
