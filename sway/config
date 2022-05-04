@@ -13,6 +13,9 @@ default_border pixel 1
 # font settings
 font pango: SourceCodePro Medium 10
 
+# auto tiling
+exec_always autotiling
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
