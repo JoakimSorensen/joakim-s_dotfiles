@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": [ "clock", "sway/language"],
     "modules-center": ["sway/workspaces"],
-    "modules-right": [ "custom/scratchpad-indicator", "temperature", "memory", "pulseaudio", "battery", "network"],
+    "modules-right": [ "custom/separator", "custom/scratchpad-indicator","custom/separator", "temperature", "custom/separator", "memory", "custom/separator", "pulseaudio", "custom/separator", "battery", "custom/separator", "network"],
     // Modules configuration
     "sway/workspaces": {
         "disable-scroll": true,
@@ -184,5 +184,10 @@
         "format": " {}",
         "on-click": "exec swaymsg 'scratchpad show'",
         "on-click-right": "exec swaymsg 'move scratchpad'"
-    }    
+    },
+
+    "custom/separator": {
+        "format": "",
+        "tooltip": false
+    }
 }

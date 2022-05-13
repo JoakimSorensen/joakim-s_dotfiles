@@ -179,6 +179,10 @@
     font-weight: normal;
 }
 
+#custom-separator {
+    color: #ebdbb2;
+}
+
 #bluetooth {
     background: rgb(28, 28, 28);
     font-size: 1.2em;
