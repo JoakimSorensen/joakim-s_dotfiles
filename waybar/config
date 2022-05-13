@@ -187,6 +187,7 @@
     },
 
     "custom/separator": {
+        //"format": "|",
         "format": "",
         "tooltip": false
     }
