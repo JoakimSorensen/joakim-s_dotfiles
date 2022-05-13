@@ -202,11 +202,10 @@
     padding: 0 0.6em;
 }
 #custom-scratchpad-indicator {
-    background: rgb(250,189,47);
-    color: rgb(28, 28, 28);
+    color: #ebdbb2;
+    background: rgb(28, 28, 28);
     font-weight: normal;
     padding: 0 0.6em;
-    opacity: 0.8;
 }
 #idle_inhibitor {
     background: @mode;
@@ -223,8 +222,8 @@
 }
 
 #memory {
-    background: rgb(152, 151, 26);
-    color: rgb(28, 28, 28);
+    color: #ebdbb2;
+    background: rgb(28, 28, 28);
 }
 
 #cpu {
@@ -246,8 +245,8 @@
     
 }
 #temperature {
-    background-color: @nord_bg;
-    color: rgb(28, 28, 28);
+    color: #ebdbb2;
+    background: rgb(28, 28, 28);
 }
 #temperature.critical {
     background:  @critical;
@@ -257,7 +256,8 @@
 }
 
 #battery {
-    background: @battery;
+    background: rgb(28, 28, 28);
+    color: #ebdbb2
 }
 
 #backlight {
@@ -276,8 +276,8 @@
 }
 
 #pulseaudio { /* Unsused but kept for those who needs it */
-    background: @sound;
-    color: rgb(28, 28, 28);
+    color: #ebdbb2;
+    background: rgb(28, 28, 28);
 }
 
 #pulseaudio.muted {

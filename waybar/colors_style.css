@@ -1,0 +1,293 @@
+
+@keyframes blink-warning {
+    70% {
+        color: @light;
+    }
+
+    to {
+        color: @light;
+        background-color: @warning;
+    }
+}
+
+@keyframes blink-critical {
+    70% {
+      color: @light;
+    }
+
+    to {
+        color: @light;
+        background-color: @critical;
+    }
+}
+
+
+/* -----------------------------------------------------------------------------
+ * Styles
+ * -------------------------------------------------------------------------- */
+
+/* COLORS */
+
+/* Gruvbox */
+@define-color bg #282828;
+@define-color light #ebdbb2;
+@define-color dark #282828;
+@define-color warning #fabd2f;
+@define-color critical #cc241d;
+@define-color mode #a89984;
+@define-color workspaces #458588;
+@define-color workspacesfocused #83a598;
+@define-color sound #d65d0e;
+@define-color network #b16286;
+@define-color memory #8ec07c;
+@define-color cpu #98971a;
+@define-color temp #b8bb26;
+@define-color layout #689d6a;
+@define-color battery #b16286;
+@define-color date #282828;
+@define-color time #ebdbb2;
+
+@define-color backlight #458588;
+@define-color nord_bg #458588;
+@define-color nord_bg_blue #282828;
+@define-color nord_light #ebdbb2;
+@define-color nord_light_font #ebdbb2;
+@define-color nord_dark_font #282828;
+
+/* Reset all styles */
+* {
+    border: none;
+    border-radius: 3px;
+    min-height: 0;
+    margin: 0.1em 0.3em 0.1em 0.3em;
+}
+
+/* The whole bar */
+#waybar {
+    background: rgb(28, 28, 28);
+    color: @light;
+    font-family: "Roboto Mono Medium", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+/* Each module */
+#battery,
+#clock,
+#cpu,
+#custom-layout,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#custom-alsa,
+#custom-pacman,
+#custom-weather,
+#custom-gpu,
+#tray,
+#backlight,
+#language,
+#custom-cpugovernor {
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+/* Each module that should blink */
+#mode,
+#memory,
+#temperature,
+#battery {
+    background-color: #d3869b;
+    color: rgb(28, 28, 28);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Each critical module */
+#memory.critical,
+#cpu.critical,
+#temperature.critical,
+#battery.critical {
+    color: #d3869b;
+}
+
+/* Each critical that should blink */
+#mode,
+#memory.critical,
+#temperature.critical,
+#battery.critical.discharging {
+    animation-name: blink-critical;
+    animation-duration: 2s;
+}
+
+/* Each warning */
+#network.disconnected,
+#memory.warning,
+#cpu.warning,
+#temperature.warning,
+#battery.warning {
+    background: @warning;
+    color: rgb(28, 28, 28);
+}
+
+/* Each warning that should blink */
+#battery.warning.discharging {
+    animation-name: blink-warning;
+    animation-duration: 3s;
+}
+
+/* And now modules themselves in their respective order */
+
+#mode { /* Shown current Sway mode (resize etc.) */
+    color: @light;
+    background: @mode;
+}
+
+/* Workspaces stuff */
+
+#workspaces {
+    color: rgb(28, 28, 28);
+    margin-right: 10px;
+}
+
+#workspaces button {
+    padding: 0;
+    color: #ebdbb2;
+    opacity: 0.5;
+    background: none;
+    font-size: 1em;
+}
+
+#workspaces button.focused {
+    background: #ebdbb2;
+    color: rgb(28, 28, 28);
+    opacity: 1;
+    padding: 0;
+}
+
+#workspaces button.urgent {
+    border-color: #c9545d;
+    color: #c9545d;
+    opacity: 1;
+}
+
+#window {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-weight: normal;
+}
+
+#bluetooth {
+    background: rgb(28, 28, 28);
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-gpu {
+    background: rgb(28, 28, 28);
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-weather {
+    background: @mode;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-pacman {
+    background: @nord_light;
+    color: @nord_dark_font;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-scratchpad-indicator {
+    color: rgb(250,189,47);
+    background: rgb(28, 28, 28);
+    font-weight: normal;
+    padding: 0 0.6em;
+    opacity: 0.8;
+}
+#idle_inhibitor {
+    background: @mode;
+    /*font-size: 1.6em;*/
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#custom-alsa {
+    background: @sound;
+}
+
+#network {
+    background: rgb(28, 28, 28);
+}
+
+#memory {
+    color: rgb(152, 151, 26);
+    background: rgb(28, 28, 28);
+}
+
+#cpu {
+    background: rgb(152, 151, 26);
+    color: rgb(28, 28, 28);
+}
+#cpu.critical {
+    color: rgb(28, 28, 28);
+}
+#language {
+    background: rgb(28, 28, 28);
+    padding: 0 0.4em;
+}
+#custom-cpugovernor {
+    background-color: @nord_light;
+    color: rgb(28, 28, 28);
+}
+#custom-cpugovernor.perf {
+    
+}
+#temperature {
+    color: @nord_bg;
+    background: rgb(28, 28, 28);
+}
+#temperature.critical {
+    background:  @critical;
+}
+#custom-layout {
+    background: @layout;
+}
+
+#battery {
+    background: rgb(28, 28, 28);
+    color: #d3869b
+}
+
+#backlight {
+    background: rgb(45, 85, 88);
+}
+
+#clock.time {
+    background: @time;
+}
+#clock.date {
+    background: rgb(28, 28, 28);
+}
+
+#clock.time {
+    background: @mode;
+}
+
+#pulseaudio { /* Unsused but kept for those who needs it */
+    color: @sound;
+    background: rgb(28, 28, 28);
+}
+
+#pulseaudio.muted {
+    /* No styles */
+}
+#pulseaudio.source-muted {
+    /* No styles */
+}
+#tray {
+    background: rgb(28, 28, 28);
+}
+

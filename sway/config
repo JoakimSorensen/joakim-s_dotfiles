@@ -1,7 +1,3 @@
-# Default config for sway
-#
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
 # Read `man 5 sway` for a complete reference.
 
 
@@ -30,11 +26,11 @@ set $term foot
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu wofi --show run
+set $menu wofi  --conf=.config/wofi/config --style=.config/wofi/style.css run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/paprika.jpg fill
+output * bg /usr/share/backgrounds/sway/cyborg_girl.png fill
 #
 # Example configuration:
 #
@@ -173,41 +169,52 @@ output * bg /usr/share/backgrounds/sway/paprika.jpg fill
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
+
+    # ------------ My Binds for Scripts -------------------
+    ## fits all visible floaters:
+    #bindsym    $mod+t exec sway-fit-floats --x-origin=20 --y-origin=20 --padx=20 --pady=20 -v
+    ## if no floaters, bring them from scratchpad; else send to scratchpad:
+    #bindsym $mod+c+t   exec sway-fit-floats --toggle --x-origin=20 --y-origin=20 --padx=20 --pady=20 -v
+    ## send visible floating windows to scratchpad:
+    #bindsym $mod+s+t   exec sway-fit-floats -S --no-focus --x-origin=20 --y-origin=20 --padx=20 --pady=20 -v
+    ## unfloat all visible windows:
+    #bindsym $mod+c+s+backslash   exec sway-fit-floats --unfloat
+
 #
 # Scratchpad:
 #
-    # Sway has a "scratchpad", which is a bag of holding for windows.
-    # You can send windows there and get them back later.
+# Sway has a "scratchpad", which is a bag of holding for windows.
+# You can send windows there and get them back later.
 
-    # Move the currently focused window to the scratchpad
+# Move the currently focused window to the scratchpad
     bindsym $mod+Shift+minus move scratchpad
 
-    # Show the next scratchpad window or hide the focused scratchpad window.
-    # If there are multiple scratchpad windows, this command cycles through them.
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
 #
 # Resizing containers:
 #
-mode "resize" {
-    # left will shrink the containers width
-    # right will grow the containers width
-    # up will shrink the containers height
-    # down will grow the containers height
-    bindsym $left resize shrink width 10px
-    bindsym $down resize grow height 10px
-    bindsym $up resize shrink height 10px
-    bindsym $right resize grow width 10px
+    mode "resize" {
+# left will shrink the containers width
+# right will grow the containers width
+# up will shrink the containers height
+# down will grow the containers height
+        bindsym $left resize shrink width 10px
+            bindsym $down resize grow height 10px
+            bindsym $up resize shrink height 10px
+            bindsym $right resize grow width 10px
 
-    # Ditto, with arrow keys
-    bindsym Left resize shrink width 10px
-    bindsym Down resize grow height 10px
-    bindsym Up resize shrink height 10px
-    bindsym Right resize grow width 10px
+# Ditto, with arrow keys
+            bindsym Left resize shrink width 10px
+            bindsym Down resize grow height 10px
+            bindsym Up resize shrink height 10px
+            bindsym Right resize grow width 10px
 
-    # Return to default mode
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
+# Return to default mode
+            bindsym Return mode "default"
+            bindsym Escape mode "default"
+    }
 bindsym $mod+r mode "resize"
 
 #141414
@@ -219,7 +226,7 @@ client.focused		"#ebdbb2" "#100c08" "#ebdbb2" "#ffffff" "#ebdbb2"
 #
 # Read `man 5 sway-bar` for more information about this section.
 bar {
-	swaybar_command waybar
+    swaybar_command waybar
 }
 
 include /etc/sway/config.d/*
