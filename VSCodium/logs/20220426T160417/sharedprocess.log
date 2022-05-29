@@ -1,9 +1,0 @@
-[2022-04-26 16:04:27.930] [sharedprocess] [info] Starting worker process with pid 28276 (type: fileWatcher, window: 1).
-[2022-04-26 16:04:28.361] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
-[2022-04-26 16:06:20.362] [sharedprocess] [info] Getting Manifest... vadimcn.vscode-lldb
-[2022-04-26 16:06:20.605] [sharedprocess] [info] Installing extension: vadimcn.vscode-lldb
-[2022-04-26 16:06:23.466] [sharedprocess] [info] Downloaded extension: vadimcn.vscode-lldb /home/joakim/.config/VSCodium/CachedExtensionVSIXs/vadimcn.vscode-lldb-1.7.0
-[2022-04-26 16:06:23.553] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.e681c151-109e-437f-a645-b95dbfa84200: vadimcn.vscode-lldb
-[2022-04-26 16:06:23.601] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/vadimcn.vscode-lldb-1.7.0
-[2022-04-26 16:06:23.603] [sharedprocess] [info] Extracting completed. vadimcn.vscode-lldb
-[2022-04-26 16:06:23.605] [sharedprocess] [info] Extension installed successfully: vadimcn.vscode-lldb

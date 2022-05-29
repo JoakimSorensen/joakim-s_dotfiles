@@ -1,0 +1,22 @@
+[2022-05-20 15:50:30.880] [sharedprocess] [info] Starting worker process with pid 42904 (type: fileWatcher, window: 1).
+[2022-05-20 15:50:37.382] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-05-20 15:50:37.383] [sharedprocess] [info] Getting Manifest... ms-toolsai.jupyter
+[2022-05-20 15:50:37.396] [sharedprocess] [info] Getting Manifest... tabnine.tabnine-vscode
+[2022-05-20 15:50:40.124] [sharedprocess] [info] Installing extension: tabnine.tabnine-vscode
+[2022-05-20 15:50:40.513] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-05-20 15:50:40.762] [sharedprocess] [info] Installing extension: ms-toolsai.jupyter
+[2022-05-20 15:50:43.178] [sharedprocess] [info] Downloaded extension: tabnine.tabnine-vscode /home/joakim/.config/VSCodium/CachedExtensionVSIXs/tabnine.tabnine-vscode-3.5.47
+[2022-05-20 15:50:43.253] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.3eefd997-6ea3-4cf9-b8ff-8788ab9f3cf4: tabnine.tabnine-vscode
+[2022-05-20 15:50:43.434] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/tabnine.tabnine-vscode-3.5.47
+[2022-05-20 15:50:43.437] [sharedprocess] [info] Extracting completed. tabnine.tabnine-vscode
+[2022-05-20 15:50:43.603] [sharedprocess] [info] Extension installed successfully: tabnine.tabnine-vscode
+[2022-05-20 15:51:08.817] [sharedprocess] [info] Downloaded extension: ms-toolsai.jupyter /home/joakim/.config/VSCodium/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.5.1001290443
+[2022-05-20 15:51:08.835] [sharedprocess] [info] Downloaded extension: ms-python.python /home/joakim/.config/VSCodium/CachedExtensionVSIXs/ms-python.python-2022.6.2
+[2022-05-20 15:51:11.754] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.97626b9a-e2a6-4fe3-83a3-4add21e9ce0e: ms-toolsai.jupyter
+[2022-05-20 15:51:11.854] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/ms-toolsai.jupyter-2022.5.1001290443
+[2022-05-20 15:51:11.874] [sharedprocess] [info] Extracting completed. ms-toolsai.jupyter
+[2022-05-20 15:51:11.919] [sharedprocess] [info] Extension installed successfully: ms-toolsai.jupyter
+[2022-05-20 15:51:16.459] [sharedprocess] [info] Extracted extension to /home/joakim/.vscode-oss/extensions/.285468b1-e195-4946-87ef-0464940ec49d: ms-python.python
+[2022-05-20 15:51:16.945] [sharedprocess] [info] Renamed to /home/joakim/.vscode-oss/extensions/ms-python.python-2022.6.2
+[2022-05-20 15:51:16.957] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-05-20 15:51:17.075] [sharedprocess] [info] Extension installed successfully: ms-python.python

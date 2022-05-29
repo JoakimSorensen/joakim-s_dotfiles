@@ -1,0 +1,16 @@
+[2022-05-20T06:50:36.666Z] Validating found git in: git
+[2022-05-20T06:50:37.905Z] Using git 2.36.1 from git
+[2022-05-20T06:50:38.192Z] > git rev-parse --show-toplevel [276ms]
+[2022-05-20T06:50:38.211Z] > git rev-parse --git-dir --git-common-dir [8ms]
+[2022-05-20T06:50:38.224Z] Open repository: /home/joakim/altime
+[2022-05-20T06:50:38.612Z] > git ls-files --stage -- /home/joakim/altime/src/index.js [74ms]
+[2022-05-20T06:50:38.683Z] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [45ms]
+[2022-05-20T06:50:38.688Z] > git show --textconv :src/index.js [156ms]
+[2022-05-20T06:50:38.792Z] > git check-ignore -v -z --stdin [10ms]
+[2022-05-20T06:50:38.931Z] > git status -z -uall [693ms]
+[2022-05-20T06:50:38.955Z] > git symbolic-ref --short HEAD [3ms]
+[2022-05-20T06:50:39.082Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [44ms]
+[2022-05-20T06:50:39.145Z] > git remote --verbose [3ms]
+[2022-05-20T06:50:39.145Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [48ms]
+[2022-05-20T06:50:39.170Z] > git config --get commit.template [2ms]
+[2022-05-20T06:52:00.500Z] > git check-ignore -v -z --stdin [2ms]

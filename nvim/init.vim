@@ -281,6 +281,22 @@ inoremap <C-k> <ESC>:m .-2<CR>==gi
 " " Visual mode
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
+
+"===================================NEOVIM TERMINAL CONFIG==========================================
+" open new split panes to right and below
+set splitright
+set splitbelow
+" turn terminal to normal mode with escape
+tnoremap <Esc> <C-\><C-n>
+" start terminal in insert mode
+au BufEnter * if &buftype == 'terminal' | :startinsert | endif
+" open terminal on ctrl+n
+function! OpenTerminal()
+  split term://bash
+  resize 10
+endfunction
+nnoremap <c-n> :call OpenTerminal()<CR>
+
 "---------------------------------------------------------
 "---------------------------------------------------------
 "---------------------------------------------------------

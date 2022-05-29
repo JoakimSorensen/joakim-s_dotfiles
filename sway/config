@@ -11,6 +11,7 @@ font pango: SourceCodePro Medium 10
 
 # auto tiling
 exec_always autotiling
+exec mako
 
 ### Variables
 #
